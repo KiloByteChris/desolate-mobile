@@ -99,7 +99,7 @@ a:hover {
 
 /********** CELL PHONE **********/
 
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 0px) and (max-width: 499px) {
 	#wrapper {
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -314,5 +314,225 @@ a:hover {
 	#beefDiv {
 		opacity: 0;
 	}
+	
+}
+
+@media only screen and (min-width: 500px) and (max-width: 999px) {
+	#wrapper {
+		background-image: url("../images/tablet_background_1.png");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+	}
+	
+	/***** HEADER *****/
+	
+	#header {
+		width: 100%;
+		height: 40em;
+	}
+	
+	#menu {
+		width: 150px;
+		position: fixed;
+		height: 35px;
+		top: 0px;
+		left: 0px;
+		font-size: 2em;
+		z-index: 9;
+	}
+
+	#menuLink {
+		text-decoration: none;
+	}
+	
+	#social {
+		position: fixed;
+		height: 35px;
+		width: 300px;
+		margin: 0px auto;
+		top: 0px;
+		right: 0px;
+		font-size: 1.5em;
+		z-index: 9;
+		text-align: center;
+	}
+	
+	#social ul {
+		padding-left:0px;
+		margin-top: 5px;
+		margin-bottom: 0px;
+	}
+	
+	.socialButton, a {
+		text-decoration: none;
+	}
+	
+	#social, li{
+		display: inline;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	
+	#mainLogo {
+		width: 475px;
+		height: auto;
+		margin: 0 auto;
+	}
+	
+	#logo {
+		width: 100%;
+		margin-top: 100px;
+	}
+	
+	/***** CONTENT *****/
+	#content {
+		width: 100%;
+		background-color: rgba(44, 44, 44, .95);
+		border-top: 2px solid #000;
+	}
+	
+	.borderDiv {
+		width: 50%;
+		margin: 15px auto;
+		border-top: 1px solid #666;
+		clear: both;
+	}
+	
+	/***** MUSIC *****/
+	#music {
+		width: 100%;	
+		height: auto;
+		border-top: 2px solid #000;
+		clear: both;
+	}
+	
+	#albumDiv {
+		max-width: 600px;
+		margin: 20px auto;
+		
+	}
+	
+	#albumCover {
+		position: relative;
+		max-width: 600px;
+		width: 100%;
+		height: auto;
+		margin: 0px auto;
+	}
+	
+	.albumTitle {
+		margin-top: 0;
+		margin-bottom: 10px;
+		display: block;
+		color: #885A34;
+		position: relative;
+		font-size: 1.5em;
+		font-weight: 100;
+		text-align: center;
+	}
+	
+	.albumLink {
+		color: #9A9995;
+		position: relative;
+		margin: 0 auto;
+		width: 200px;
+		display: block;
+		border: 2px solid #4A2C19;
+		font-size: 1.2em;
+		font-weight: 100;
+		background-color: #111;
+		text-align: center;
+	}
+	
+	.trackList {
+		display: none;
+	}
+	
+	/***** VIDEO *****/
+	#video {
+		width: 100%;
+		max-width: 999px;
+	}
+
+	#videoContainer {
+		position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 30px;
+		height: 0;
+		overflow: hidden;
+		max-width: 800px;
+		margin: 0px auto;
+	}
+	
+	#videoContainer iframe,
+	#videoContainer object,
+	#videoContainer embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	
+	/***** SHOWS *****/
+	
+	#shows{
+		margin: 10px auto;
+		text-align: center;
+		color: #9A9995;
+		margin-bottom: 0px;
+	}
+	
+	#showsTitle {
+		margin-top: 10px;
+		font-weight: 100;
+		font-size: 1.7em;
+		font-weight: 100
+	}
+	
+	#showDates {
+		margin: 0px auto;
+		max-width: 800px;
+		width: 100%;
+	}
+	
+	/***** FOOTER *****/
+	#footer { 
+		width: 100%;
+		height: 75px;
+		border-top: 2px solid #666;
+		background-color: rgba(44, 44, 44, .95);
+		color: #9A9995;
+		clear: both;
+	}
+
+	#copyright {
+		display: block;
+		
+	}
+
+	#footerNavLinks {
+		display: none;
+	}
+
+	#emailDiv {
+	}
+
+	#email {
+		display: none;
+	}
+
+	#emailAddress {
+		color: #9A9995;
+		display: none;
+		
+	}
+
+	#beefDiv {
+		opacity: 0;
+	}
+	
+}
 	
 }

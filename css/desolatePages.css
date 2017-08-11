@@ -350,3 +350,13 @@ a:hover {
 		opacity: 0;
 	}
 }
+
+@media only screen and (max-width: 1000px) {
+	#wrapper {
+		background-image: url("../images/mobile_background_1.png");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+	}
+	
+}
