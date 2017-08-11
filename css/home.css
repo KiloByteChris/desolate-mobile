@@ -164,9 +164,154 @@ a:hover {
 	}
 	
 	#logo {
-		width: 310px;
+		width: 100%;
 		margin-top: 50px;
 	}
 	
+	/***** CONTENT *****/
+	#content {
+		width: 100%;
+		background-color: rgba(44, 44, 44, .95);
+		border-top: 2px solid #000;
+	}
+	
+	.borderDiv {
+		width: 50%;
+		margin: 15px auto;
+		border-top: 1px solid #666;
+		clear: both;
+	}
+	
+	/***** MUSIC *****/
+	#music {
+		width: 100%;	
+		height: auto;
+		border-top: 2px solid #000;
+		clear: both;
+	}
+	
+	#albumDiv {
+		width: 100%;
+		position: relative;
+		margin: 0px auto;
+	}
+	
+	#albumCover {
+		width: 100%;
+		position: relative;
+		margin: 10px auto;
+		max-width: 500px;
+		height: auto;
+	}
+	
+	.albumTitle {
+		margin-top: 0;
+		margin-bottom: 10px;
+		display: block;
+		color: #885A34;
+		position: relative;
+		font-size: 1.5em;
+		font-weight: 100;
+		text-align: center;
+	}
+	
+	.albumLink {
+		color: #9A9995;
+		position: relative;
+		margin: 0 auto;
+		width: 200px;
+		display: block;
+		border: 2px solid #4A2C19;
+		font-size: 1.2em;
+		font-weight: 100;
+		background-color: #111;
+		text-align: center;
+	}
+	
+	.trackList {
+		display: none;
+	}
+	
+	/***** VIDEO *****/
+	#video {
+		width: 100%;
+		max-width: 500px;
+	}
+
+	#videoContainer {
+		position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 30px;
+		height: 0;
+		overflow: hidden;
+		max-width: 500px;
+	}
+	
+	#videoContainer iframe,
+	#videoContainer object,
+	#videoContainer embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	
+	/***** SHOWS *****/
+	
+	#shows{
+		margin: 10px auto;
+		text-align: center;
+		color: #9A9995;
+		margin-bottom: 0px;
+	}
+	
+	#showsTitle {
+		margin-top: 10px;
+		font-weight: 100;
+		font-size: 1.7em;
+		font-weight: 100
+	}
+	
+	#showDates {
+		margin: 0px auto;
+		max-width: 500px;
+		width: 100%;
+	}
+	
+	/***** FOOTER *****/
+	#footer { 
+		width: 100%;
+		border-top: 2px solid #666;
+		background-color: rgba(44, 44, 44, .95);
+		color: #9A9995;
+		clear: both;
+	}
+
+	#copyright {
+		display: block;
+		
+	}
+
+	#footerNavLinks {
+		display: none;
+	}
+
+	#emailDiv {
+	}
+
+	#email {
+		display: none;
+	}
+
+	#emailAddress {
+		color: #9A9995;
+		display: none;
+		
+	}
+
+	#beefDiv {
+		opacity: 0;
+	}
 	
 }
