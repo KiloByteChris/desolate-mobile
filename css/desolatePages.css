@@ -173,6 +173,7 @@ a:hover {
 		width: 100%;
 		background-color: rgba(44, 44, 44, .95);
 		border-top: 2px solid #000;
+		padding-bottom: 20px;
 	}
 	
 	.borderDiv {
@@ -282,6 +283,37 @@ a:hover {
 		padding: 5px;
 	}
 	
+	/***** SHOWS *****/
+	
+	/***** CONTACT *****/
+	
+	.emailLink {
+		color: #9A9995;
+		position: relative;
+		width: 335px;
+		display: block;
+		border: 2px solid #4A2C19;
+		font-size: 1.2em;
+		padding: 7px;
+		font-weight: 200;
+		background-color: #111;
+		text-align: center;
+		margin: 0px auto;
+	}
+	
+	#contactList {
+		list-style-type: none;
+		font-size: 1.2em;
+		text-align: center;
+		padding-left: 0;
+	}
+	
+	#contactList li {
+		display: block;
+		line-height: 2em;
+		text-align: center;
+	}
+	
 	/***** FOOTER *****/
 	#footer { 
 		width: 100%;
@@ -295,7 +327,6 @@ a:hover {
 
 	#copyright {
 		display: block;
-		
 	}
 
 	#footerNavLinks {
