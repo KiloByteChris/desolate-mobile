@@ -20,13 +20,13 @@
 
 </head>
 
-<body class="light">
+<body class="on">
 <div id="wrapper">
 		
 	<div id="header">
 	
-		<div id="navScreenDiv">
-			<div id="navScreen" class="navScreen">
+		<div id="navScreenDiv" class="navScreen">
+			
 					
 					<ul id="linkList">
 						<li class="navScreenLink" ><a href="home.html">Home</a></li>
@@ -36,7 +36,7 @@
 						<li class="navScreenLink"><a href="https://thedesolatemetal.bandcamp.com/merch" target="_blank">Merch</a></li>
 						<li class="navScreenLink"><a href="contact.html">Contact</a></li>
 					</ul>
-			</div><!-- end navScreen -->	
+				
 		</div><!-- end navScreenDiv -->		
 		
 		
@@ -152,7 +152,7 @@
 		$('#menuLink').click(function() {
 			
 			$('#content').toggleClass('hide');
-			$('body').toggleClass('dark');
+			$('body').toggleClass('off');
 			$('#mainLogo').toggleClass('hide');
 			$('.navScreen').toggleClass('displayScreen');
 			$('#footer').toggleClass('hide');
