@@ -381,6 +381,11 @@ a:hover {
 		text-decoration: none;
 	}
 	
+	#menuLink:hover {
+		color: #ddd;
+		font-size: 1.2em;
+	}
+	
 	#social {
 		position: fixed;
 		height: 35px;
