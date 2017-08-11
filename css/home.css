@@ -644,26 +644,21 @@ a:hover {
 	}
 	
 	#albumDiv {
-		position: relative;
-		max-width: 800px;
+		max-width: 600px;
 		margin: 20px auto;
 		
 	}
 	
 	#albumCover {
 		position: relative;
-		max-width: 800px;
+		max-width: 600px;
 		width: 100%;
 		height: auto;
 		margin: 0px auto;
 	}
 	
-	#albumInfo {
-		
-	}
-	
 	.albumTitle {
-		margin-top: 25px;
+		margin-top: 0;
 		margin-bottom: 10px;
 		display: block;
 		color: #885A34;
@@ -693,6 +688,7 @@ a:hover {
 	/***** VIDEO *****/
 	#video {
 		width: 100%;
+		max-width: 999px;
 	}
 
 	#videoContainer {
@@ -773,5 +769,5 @@ a:hover {
 		opacity: 0;
 	}
 	
-}
+
 }
