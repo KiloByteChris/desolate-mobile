@@ -30,12 +30,14 @@ a:hover {
 /********** WRAPPER **********/
 
 #wrapper {
+	max-width: 500px;
 	width: 100%;
 	height: auto;
 	margin: 0px auto;
 	margin-left: 0px; 
 	margin-bottom: 0px;
 	background-image: url("../images/mobile_background_1.png");
+	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 } 
@@ -43,6 +45,7 @@ a:hover {
 /********** NAV SCREEN **********/ 
 	
 #navScreenDiv {
+	max-width: 500px;
 	width: 100%
 }
 	
@@ -71,6 +74,7 @@ a:hover {
 
 .displayScreen {
 	position: fixed;
+	max-width: 500px;
 	width: 100%;
 	height: 100%;
 	top: 0px;
@@ -93,7 +97,7 @@ a:hover {
 .navScreenLink {
 	positon: fixed;
 	display: block;
-	font-size: 5em;
+	font-size: 3em;
 	text-align: center;
 	width: 100%;
 	margin-top: 10px;
@@ -106,11 +110,6 @@ a:hover {
 	color: #ddd;
 	transition: color .5s;
 }
-
-/********** CELL PHONE **********/
-
-
-
 	
 /***** HEADER *****/
 	
@@ -121,11 +120,12 @@ a:hover {
 }
 	
 #menu {
+	max-width: 500px;
 	width: 100%;
 	display: block;
 	position: fixed;
 	top: 0px;
-	font-size: 3.5em;
+	font-size: 3em;
 	background-color: rgba(66, 66, 66, 0.9);
 	text-align: center;
 	z-index: 9;
@@ -139,10 +139,11 @@ a:hover {
 #social {
 	position: fixed;
 	/* height: 35px; */
+	max-width: 500px;
 	width: 100%;
 	margin: 0px auto;
 	bottom: 0px;
-	font-size: 7em;
+	font-size: 2em;
 	z-index: 9;
 	text-align: center;
 	background-color: rgba(66, 66, 66, 0.9);
@@ -165,18 +166,21 @@ a:hover {
 }
 	
 #mainLogo {
+	max-width: 500px;
 	width: 100%;
 }
 	
 #logo {
+	max-width: 500px;
 	width: 100%;
 	margin-top: 25%;
 }
 	
 /***** CONTENT *****/
 #content {
+	max-width: 500px;
 	width: 100%;
-	background-color: rgba(44, 44, 44, .95);
+	background-color: rgba(44, 44, 44, .85);
 	border-top: 2px solid #000;
 }
 	
@@ -189,6 +193,7 @@ a:hover {
 	
 /***** MUSIC *****/
 #music {
+	max-width: 500px;
 	width: 100%;	
 	height: auto;
 	border-top: 2px solid #000;
@@ -286,6 +291,7 @@ a:hover {
 	
 /***** FOOTER *****/
 #footer { 
+	max-width: 500px;
 	width: 100%;
 	height: 100px;
 	border-top: 2px solid #666;
@@ -345,6 +351,7 @@ a:hover {
 		font-size: 2em;
 		z-index: 9;
 		float: left;
+		background-color: rgba(00,00,00,00);
 	}
 
 	#menuLink {
@@ -362,6 +369,7 @@ a:hover {
 		z-index: 9;
 		text-align: center;
 		float: right;
+		background-color: rgba(00,00,00,00);
 	}
 	
 	#social ul {
@@ -387,14 +395,16 @@ a:hover {
 	}
 	
 	#logo {
+		max-width: 999px;
 		width: 100%;
 		margin-top: 100px;
 	}
 	
 	/***** CONTENT *****/
 	#content {
+		max-width: 999px;
 		width: 100%;
-		background-color: rgba(44, 44, 44, .95);
+		background-color: rgba(44, 44, 44, .85);
 		border-top: 2px solid #000;
 	}
 	
@@ -407,6 +417,7 @@ a:hover {
 	
 	/***** MUSIC *****/
 	#music {
+		max-width: 999px;
 		width: 100%;	
 		height: auto;
 		border-top: 2px solid #000;
@@ -457,6 +468,7 @@ a:hover {
 	
 	/***** VIDEO *****/
 	#video {
+		max-width: 999px;
 		width: 100%;
 		max-width: 999px;
 	}
@@ -477,6 +489,7 @@ a:hover {
 		position: absolute;
 		top: 0;
 		left: 0;
+		max-width: 999px;
 		width: 100%;
 		height: 100%;
 	}
@@ -505,6 +518,7 @@ a:hover {
 	
 	/***** FOOTER *****/
 	#footer { 
+		max-width: 999px;
 		width: 100%;
 		height: 75px;
 		border-top: 2px solid #666;
@@ -526,13 +540,11 @@ a:hover {
 	}
 
 	#email {
-		display: none;
+		
 	}
 
 	#emailAddress {
 		color: #9A9995;
-		display: none;
-		
 	}
 
 	#beefDiv {
@@ -542,8 +554,10 @@ a:hover {
 }
 
 /********** FULL SIZE **********/
-@media only screen and (min-width: 960px){
+@media only screen and (min-width: 1000px){
 	#wrapper {
+		max-width: 1995px;
+		width: 100%;
 		background-image: url("../images/full_background_1.png");
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -553,6 +567,7 @@ a:hover {
 	/***** HEADER *****/
 	
 	#header {
+		max-width: 1995px;
 		width: 100%;
 		height: 60em;
 	}
@@ -566,6 +581,7 @@ a:hover {
 		font-size: 2.5em;
 		z-index: 9;
 		float: left;
+		background-color: rgba(0,0,0,0);
 	}
 
 	#menuLink {
@@ -588,6 +604,7 @@ a:hover {
 		z-index: 9;
 		text-align: center;
 		float: right;
+		background-color: rgba(0,0,0,0);
 	}
 	
 	#social ul {
@@ -614,12 +631,14 @@ a:hover {
 	}
 	
 	#logo {
+		max-width: 1995px;
 		width: 100%;
 		margin-top: 100px;
 	}
 	
 	.displayScreen {
 		position: fixed;
+		max-width: 1995px;
 		width: 100%;
 		height: 100%;
 		top: 0px;
@@ -633,6 +652,7 @@ a:hover {
 
 	#linkList {
 		positon: fixed;
+		max-width: 1995px;
 		width: 100%;
 		padding-left: 0;
 		vertical-align: middle;
@@ -644,6 +664,7 @@ a:hover {
 		display: block;
 		font-size: 2.5em;
 		text-align: center;
+		max-width: 1995px;
 		width: 100%;
 		margin-top: 20px;
 		
@@ -651,8 +672,9 @@ a:hover {
 	
 	/***** CONTENT *****/
 	#content {
+		max-width: 1995px;
 		width: 100%;
-		background-color: rgba(44, 44, 44, .95);
+		background-color: rgba(44, 44, 44, .85);
 		border-top: 2px solid #000;
 	}
 	
@@ -665,6 +687,7 @@ a:hover {
 	
 	/***** MUSIC *****/
 	#music {
+		max-width: 1995px;
 		width: 100%;	
 		height: auto;
 		border-top: 2px solid #000;
@@ -717,6 +740,7 @@ a:hover {
 	
 	/***** VIDEO *****/
 	#video {
+		max-width: 1995px;
 		width: 100%;
 		padding-top: 35px;
 	}
@@ -766,6 +790,7 @@ a:hover {
 	
 	/***** FOOTER *****/
 	#footer { 
+		max-width: 1995px;
 		width: 100%;
 		height: auto;
 		border-top: 2px solid #666;
