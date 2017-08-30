@@ -127,7 +127,7 @@ a:hover {
 	display: block;
 	position: fixed;
 	top: 0px;
-	font-size: 3em;
+	font-size: 4em;
 	background-color: rgba(66, 66, 66, 0.9);
 	text-align: center;
 	z-index: 9;
@@ -144,7 +144,7 @@ a:hover {
 	width: 100%;
 	margin: 0px auto;
 	bottom: 0px;
-	font-size: 2em;
+	font-size: 3em;
 	z-index: 9;
 	text-align: center;
 	background-color: rgba(66, 66, 66, 0.9);
@@ -329,4 +329,411 @@ a:hover {
 #beefDiv {
 	opacity: 0;
 }
+/********** SMALL SCREEN x1 PX **********/
+@media only screen and (max-width: 500px){
+	/********** WRAPPER **********/
+
+	#wrapper {
+		max-width: 500px;
+		background-image: url("../images/mobile_background_1.png");
+		background-position: center top;
+	} 
+
+	/********** NAV SCREEN **********/ 
+		
+	#navScreenDiv {
+		max-width: 500px;
+	}
+		
+	.displayScreen {
+		max-width: 500px;
+	}
+
+	#linkList {
+		max-width: 500px;
+		margin-top: 10%;
+	}
+
+	.navScreenLink {
+		max-width: 500px;
+		font-size: 3em;
+		margin-top: 10px;
+	}
+
+	/***** HEADER *****/
+		
+	#header {
+		max-width: 500px;
+		width: 100%;
+		height: 40em;
+	}
+		
+	#menu {
+		max-width: 500px;
+		font-size: 3em;
+	}
+		
+	#social {
+		max-width: 500px;
+		font-size: 2em;
+	}
+		
+	#mainLogo {
+		max-width: 500px;
+	}
+		
+	#logo {
+		max-width: 500px;
+		width: 100%;
+		margin-top: 25%;
+	}
+		
+	/***** CONTENT *****/
+	#content {
+		max-width: 500px;
+		width: 100%;
+	}
+			
+	/***** MUSIC *****/
+	#music {
+		max-width: 500px;
+		width: 100%;	
+	}
+		
+	#albumDiv {
+		width: 100%;
+		position: relative;
+		margin: 0px auto;
+	}
+		
+	#albumCover {
+		max-width: 500px;
+		width: 100%;
+		position: relative;
+		margin: 10px auto;
+		height: auto;
+	}
+		
+	/***** VIDEO *****/
+	#video {
+		max-width: 500px;
+	}
+
+	#videoContainer {
+		max-width: 500px;
+	}
+
+	/***** SHOWS *****/
+	
+	#showDates {
+		max-width: 500px;
+	}
+		
+	/***** FOOTER *****/
+	#footer { 
+		max-width: 500px;
+	}
+}
+
+/********** SMALL SCREEN x2 PX **********/
+@media only screen and (max-width: 500px) and (-webkit-min-device-pixel-ratio: 2){
+	/********** WRAPPER **********/
+
+	#wrapper {
+		max-width: 500px;
+		width: 100%;
+		height: auto;
+		margin: 0px auto;
+		margin-left: 0px; 
+		margin-bottom: 0px;
+		background-image: url("../images/mobile_background_1.png");
+		background-position: center top;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+	} 
+
+	/********** NAV SCREEN **********/ 
+		
+	#navScreenDiv {
+		max-width: 500px;
+		width: 100%
+	}
+		
+	.navScreen {
+		display: none;
+	}
+		
+	.show {
+		opacity: 1;
+	}
+		
+	.hide {
+		opacity: .1;
+		transition: opacity 1s;
+	}
+
+	.on{
+		background-image: url("../images/backgroundNoise2.jpg");
+	}
+
+	.off{
+		background-image: none;
+		background-color: #fff;
+		tansition: background-color 2s;
+	}
+
+	.displayScreen {
+		position: fixed;
+		max-width: 500px;
+		width: 100%;
+		height: 100%;
+		top: 0px;
+		text-align: center;
+		clear: both;
+		text-decoration: none;
+		background-color: rgba(0, 0, 0, 0.7);
+		display: block;
+		z-index: 5;
+	}
+
+	#linkList {
+		positon: fixed;
+		width: 100%;
+		padding-left: 0;
+		vertical-align: middle;
+		margin-top: 25%;
+	}
+
+	.navScreenLink {
+		positon: fixed;
+		display: block;
+		font-size: 3em;
+		text-align: center;
+		width: 100%;
+		margin-top: 10px;
+		
+	}
+
+	.boxLink:hover {
+		background-color: #4A2C19;
+		transition: background-color .5s;
+		color: #ddd;
+		transition: color .5s;
+	}
+		
+	/***** HEADER *****/
+		
+	#header {
+		max-width: 500px;
+		width: 100%;
+		height: 40em;
+	}
+		
+	#menu {
+		max-width: 500px;
+		width: 100%;
+		display: block;
+		position: fixed;
+		top: 0px;
+		font-size: 3em;
+		background-color: rgba(66, 66, 66, 0.9);
+		text-align: center;
+		z-index: 9;
+	}
+
+	#menuLink {
+		display: block;
+		text-decoration: none;
+	}
+		
+	#social {
+		position: fixed;
+		/* height: 35px; */
+		max-width: 500px;
+		width: 100%;
+		margin: 0px auto;
+		bottom: 0px;
+		font-size: 2em;
+		z-index: 9;
+		text-align: center;
+		background-color: rgba(66, 66, 66, 0.9);
+	}
+		
+	#social ul {
+		padding-left:0px;
+		margin-top: 5px;
+		margin-bottom: 0px;
+	}
+		
+	.socialButton, a {
+		text-decoration: none;
+	}
+		
+	#social, li{
+		display: inline;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+		
+	#mainLogo {
+		max-width: 500px;
+		width: 100%;
+	}
+		
+	#logo {
+		max-width: 500px;
+		width: 100%;
+		margin-top: 25%;
+	}
+		
+	/***** CONTENT *****/
+	#content {
+		max-width: 500px;
+		width: 100%;
+		background-color: rgba(44, 44, 44, .85);
+		border-top: 2px solid #000;
+	}
+		
+	.borderDiv {
+		width: 50%;
+		margin: 15px auto;
+		border-top: 1px solid #666;
+		clear: both;
+	}
+		
+	/***** MUSIC *****/
+	#music {
+		max-width: 500px;
+		width: 100%;	
+		height: auto;
+		border-top: 2px solid #000;
+		clear: both;
+	}
+		
+	#albumDiv {
+		width: 100%;
+		position: relative;
+		margin: 0px auto;
+	}
+		
+	#albumCover {
+		max-width: 500px;
+		width: 100%;
+		position: relative;
+		margin: 10px auto;
+		height: auto;
+	}
+		
+	.albumTitle {
+		margin-top: 0;
+		margin-bottom: 10px;
+		display: block;
+		color: #885A34;
+		position: relative;
+		font-size: 1.5em;
+		font-weight: 100;
+		text-align: center;
+	}
+		
+	.boxLink {
+		color: #9A9995;
+		position: relative;
+		margin: 0 auto;
+		width: 200px;
+		display: block;
+		border: 2px solid #4A2C19;
+		font-size: 1.2em;
+		font-weight: 100;
+		background-color: #111;
+		text-align: center;
+	}
+		
+	.trackList {
+		display: none;
+	}
+		
+	/***** VIDEO *****/
+	#video {
+		max-width: 500px;
+		width: 100%;
+	}
+
+	#videoContainer {
+		position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 30px;
+		height: 0;
+		overflow: hidden;
+		max-width: 500px;
+	}
+		
+	#videoContainer iframe,
+	#videoContainer object,
+	#videoContainer embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+		
+	/***** SHOWS *****/
+		
+	#shows{
+		margin: 10px auto;
+		text-align: center;
+		color: #9A9995;
+		margin-bottom: 0px;
+	}
+		
+	#showsTitle {
+		margin-top: 10px;
+		font-weight: 100;
+		font-size: 1.7em;
+		font-weight: 100
+	}
+		
+	#showDates {
+		margin: 0px auto;
+		max-width: 500px;
+		width: 100%;
+	}
+		
+	/***** FOOTER *****/
+	#footer { 
+		max-width: 500px;
+		width: 100%;
+		height: 100px;
+		border-top: 2px solid #666;
+		background-color: rgba(44, 44, 44, .95);
+		color: #9A9995;
+		clear: both;
+	}
+
+	#copyright {
+		display: block;	
+	}
+
+	#footerNavLinks {
+		display: none;
+	}
+
+	#emailDiv {
+	}
+
+	#email {
+		display: none;
+	}
+
+	#emailAddress {
+		color: #9A9995;
+		display: none;	
+	}
+
+	#beefDiv {
+		opacity: 0;
+	}
+
+}
+/********** MED SCREEN x1 PX **********/
 
