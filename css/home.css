@@ -438,7 +438,7 @@ a:hover {
 }
 
 
-/********** MED SCREEN **********/
+/********** MED SCREEN PORTRAIT **********/
 @media only screen and (min-width: 500px) and (max-width: 999px) and (orientation : portrait) {
 	#wrapper {
 		max-width: 999px;	
@@ -471,8 +471,6 @@ a:hover {
 		text-align: center;
 		width: 100%;
 		margin-top: 50px;
-		
-		
 	}
 	
 	/***** HEADER *****/
@@ -536,7 +534,6 @@ a:hover {
 	#albumDiv {
 		max-width: 600px;
 		margin: 20px auto;
-		
 	}
 	
 	#albumCover {
@@ -668,7 +665,7 @@ a:hover {
 	
 }
 
-
+/********** MED SCREEN LANDSCAPE **********/
 @media only screen and (min-width: 500px) and (max-width: 999px) and (orientation : landscape) {
 	#navScreenDiv {
 		background-color: #000;
