@@ -650,6 +650,7 @@ a:hover {
 		font-size: 2.5em;
 		z-index: 9;
 		float: left;
+		background-color: rgba(0,0,0,0);
 	}
 
 	#menuLink {
@@ -672,6 +673,7 @@ a:hover {
 		z-index: 9;
 		text-align: center;
 		float: right;
+		background-color: rgba(0,0,0,0);
 	}
 	
 	#social ul {
@@ -900,6 +902,7 @@ a:hover {
 		line-height: 2em;
 		text-align: center;
 		width: 150px;
+		margin: 0px auto;
 	}
 	
 	/***** FOOTER *****/
