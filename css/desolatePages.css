@@ -358,7 +358,7 @@ a:hover {
 }
 
 
-@media only screen and (min-width: 500px) and (max-width: 999px) {
+@media only screen and (min-width: 500px) and (max-width: 999px) and (orientation : portrait) {
 	#wrapper {
 		background-image: url("../images/tablet_background_1.png");
 		background-repeat: no-repeat;
@@ -626,6 +626,8 @@ a:hover {
 	
 }
 
+@media only screen and (min-width: 500px) and (max-width: 999px) and (orientation : landscape) {
+	
 @media only screen and (min-width: 1000px){
 	#wrapper {
 		background-image: url("../images/full_background_1.png");
