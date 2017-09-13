@@ -12,6 +12,7 @@ font-family: 'Roboto', sans-serif;
 font-family: 'PT Sans', sans-serif;
 */
 
+/********** DEFAULT STYLE **********/
 /********** BODY **********/
 
 body {
@@ -175,8 +176,7 @@ a:hover {
 #logo {
 	max-width: 900px;
 	width: 100%;
-	margin: 5% auto;
-	
+	margin: 5% auto;	
 }
 	
 /***** CONTENT *****/
@@ -251,7 +251,7 @@ a:hover {
 #video {
 	max-width: 1200px;
 	width: 100%;
-	margin: 0pc auto;
+	margin: 0px auto;
 }
 
 #videoContainer {
@@ -332,7 +332,7 @@ a:hover {
 
 
 /********** SMALL SCREEN **********/
-@media only screen and (max-width: 500px){
+@media only screen and (min-width: 99px)and (max-width: 500px){
 	/********** WRAPPER **********/
 
 	#wrapper {
@@ -492,8 +492,6 @@ a:hover {
 	#social {
 		font-size: 5em;
 	}
-	
-	
 	
 	#mainLogo {
 		width: 600px;
@@ -665,6 +663,7 @@ a:hover {
 	
 }
 
+
 /********** MED SCREEN LANDSCAPE **********/
 @media only screen and (min-width: 500px) and (max-width: 999px) and (orientation : landscape) {
 	#navScreenDiv {
@@ -675,6 +674,7 @@ a:hover {
 		font-size: 3em;
 	}
 }
+	
 	
 /********** FULL SIZE **********/
 @media only screen and (min-width: 1000px){
