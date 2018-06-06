@@ -1,32 +1,35 @@
-<!DOCTYPE HTML> 
-
+<!DOCTYPE HTML>
 <html lang="en">
-
 <!--
 	Site By: Chris McGuire
 	Web site for The Desolate
-	
+
 -->
-
-
-
 <head>
-
+	<title>The Desolate - Contact</title>
+	<!-- META INFO -->
 	<meta charset="UTF-8">
-	<title>The Desolate - Video</title>
+	<meta name="description" content="A website for the heavy metal band The Desolate" />
+	<meta name="keywords" content="the desolate, metal, vancouver" />
+	<meta name="author" content="Chris McGuire new-volume.com" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- CSS -->
+	<link href="css/reset.css" rel="stylesheet" />
 	<link href="css/desolatePages.css" rel="stylesheet" />
+	<!-- JQUERY -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- JAVASCRIPT -->
+	<script src="js/menu_toggle.js"></script>
+	<!-- FONTS- -->
+	<link href="https://fonts.googleapis.com/css?family=Fira+Mono|Overpass+Mono|PT+Sans|Roboto" rel="stylesheet">
+	<!-- FONT AWESOME -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
-
 <body class="on">
 	<div id="wrapper">
 		<div id="header">
-	
 		<div id="navScreenDiv">
 			<div id="navScreen" class="navScreen">
-					
 					<ul id="linkList">
 						<li class="navScreenLink" ><a href="home.html">Home</a></li>
 						<li class="navScreenLink"><a href="music.html">Music</a></li>
@@ -35,14 +38,13 @@
 						<li class="navScreenLink"><a href="https://thedesolatemetal.bandcamp.com/">Merch</a></li>
 						<li class="navScreenLink"><a href="contact.html">Contact</a></li>
 					</ul>
-			</div><!-- end navScreen -->	
-		</div><!-- end navScreenDiv -->		
-		
-		
+			</div><!-- end navScreen -->
+		</div><!-- end navScreenDiv -->
+
 		<div id="menu">
-			<a id="menuLink" href="javascript:;" class="fa fa-bars"> Menu</a>
+			<a id="menuLink" href="javascript:;" class="fa fa-bars"></a>
 		</div><!-- end menu -->
-			
+
 		<div id="social">
 			<!-- Add font awesome icons -->
 			<ul>
@@ -54,50 +56,28 @@
 				<li class="socialButton"><a href="https://open.spotify.com/artist/6OvXX2JfJbTXh2vo8lDRiQ" class="fa fa-spotify"></a></li>
 			</ul>
 		</div> <!-- End social media button div -->
-		
+
 		<div id="mainLogo" class="show">
 			<img id="logo" src="images/Large_Metallic_Logo.png" alt="The Desolate band logo"/>
-		</div><!-- end mainImage -->		
+		</div><!-- end mainImage -->
 	</div> <!-- end header -->
-		
+
 		<div id="content">
-			
+
 			<div class="videoDiv" id="videoDiv">
 				<h1 id="videoTitle" class="pageTitle">Video</h1>
-				
+
 				<div class="videoContainer" id="videoContainer">
 					<iframe class="videoPlayer" id="videoPlayer" width="960" height="715" src="https://www.youtube.com/embed/8vcRqj1hloI" frameborder="0" allowfullscreen></iframe>
 				</div><!-- end videoContainer -->
-			
 			</div>
-			
-			
-			
 		</div><!-- end content -->
-		
 	<div id="footer">
 			<p id="copyright">	&copy;2017 The Desolate</p>
-			
 			<div id="emailDiv">
 				<a href="mailto:thedesolatemetalofficial@gmail.com" id="email">Email: thedesolatemetalofficial@gmail.com</a>
 				<!-- <p id="emailAddress">thedesolatemetalofficial@gmail.com</p> -->
 			</div>
-	
 	</div> <!--End of pagewrapper-->
-
-<script>
-	
-	$(document).ready(function() {
-	
-		$('#menuLink').click(function() {
-			
-			$('#content').toggleClass('hide');
-			$('body').toggleClass('off');
-			$('#mainLogo').toggleClass('hide');
-			$('.navScreen').toggleClass('displayScreen');
-			$('#footer').toggleClass('hide');
-		});
-	});
-</script> 	
 </body>
 </html>
