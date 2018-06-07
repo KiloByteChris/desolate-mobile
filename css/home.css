@@ -35,30 +35,30 @@ a:hover {
 	width: 100%;
 	height: auto;
 	margin: 0px auto;
-	margin-left: 0px; 
+	margin-left: 0px;
 	margin-bottom: 0px;
 	background-image: url("../images/full_background_1.png");
 	background-position: top center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-} 
+}
 
-/********** NAV SCREEN **********/ 
-/* The nav screen is hidden until the menu link is clicked */ 
-	
+/********** NAV SCREEN **********/
+/* The nav screen is hidden until the menu link is clicked */
+
 #navScreenDiv {
 	max-width: 2000px;
 	width: 100%
 }
-	
+
 .navScreen {
 	display: none;
 }
-	
+
 .show {
 	opacity: 1;
 }
-	
+
 .hide {
 	opacity: .1;
 	transition: opacity 1s;
@@ -113,15 +113,15 @@ a:hover {
 	color: #ddd;
 	transition: color .5s;
 }
-	
+
 /***** HEADER *****/
-	
+
 #header {
 	max-width: 2000px;
 	width: 100%;
 	height: 40em;
 }
-	
+
 #menu {
 	max-width: 2000px;
 	width: 100%;
@@ -138,7 +138,7 @@ a:hover {
 	display: block;
 	text-decoration: none;
 }
-	
+
 #social {
 	position: fixed;
 	max-width: 2000px;
@@ -150,35 +150,35 @@ a:hover {
 	text-align: center;
 	background-color: rgba(66, 66, 66, 0.9);
 }
-	
+
 #social ul {
 	padding-left:0px;
 	margin-top: 5px;
 	margin-bottom: 0px;
 }
-	
+
 .socialButton, a {
 	text-decoration: none;
 }
-	
+
 #social, li{
 	display: inline;
 	padding-left: 5px;
 	padding-right: 5px;
 }
-	
+
 #mainLogo {
 	max-width: 900px;
 	width: 100%;
 	margin: 0px auto;
 }
-	
+
 #logo {
 	max-width: 900px;
 	width: 100%;
-	margin: 5% auto;	
+	margin: 5% auto;
 }
-	
+
 /***** CONTENT *****/
 #content {
 	max-width: 2000px;
@@ -186,30 +186,30 @@ a:hover {
 	background-color: rgba(44, 44, 44, .85);
 	border-top: 2px solid #000;
 }
-	
+
 .borderDiv {
 	width: 50%;
 	margin: 15px auto;
 	border-top: 1px solid #666;
 	clear: both;
 }
-	
+
 /***** MUSIC *****/
 #music {
 	max-width: 2000px;
-	width: 100%;	
+	width: 100%;
 	height: auto;
 	border-top: 2px solid #000;
 	clear: both;
 }
-	
+
 #albumDiv {
 	max-width: 800px;
 	width: 100%;
 	position: relative;
 	margin: 0px auto;
 }
-	
+
 #albumCover {
 	max-width: 800px;
 	width: 100%;
@@ -217,7 +217,7 @@ a:hover {
 	margin: 10px auto;
 	height: auto;
 }
-	
+
 .albumTitle {
 	margin-top: 0;
 	margin-bottom: 10px;
@@ -228,7 +228,7 @@ a:hover {
 	font-weight: 100;
 	text-align: center;
 }
-	
+
 .boxLink {
 	color: #9A9995;
 	position: relative;
@@ -242,11 +242,11 @@ a:hover {
 	text-align: center;
 	padding: 10px;
 }
-	
+
 .trackList {
 	display: none;
 }
-	
+
 /***** VIDEO *****/
 #video {
 	max-width: 1200px;
@@ -261,42 +261,42 @@ a:hover {
 	height: 0;
 	overflow: hidden;
 }
-	
+
 #videoContainer iframe,
 #videoContainer object,
 #videoContainer embed {
-	
+
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 }
-	
+
 /***** SHOWS *****/
-	
+
 #shows{
 	margin: 10px auto;
 	text-align: center;
 	color: #9A9995;
 	margin-bottom: 0px;
 }
-	
+
 #showsTitle {
 	margin-top: 10px;
 	font-weight: 100;
 	font-size: 3em;
 	font-weight: 100
 }
-	
+
 #showDates {
 	margin: 0px auto;
 	max-width: 1200px;
 	width: 100%;
 }
-	
+
 /***** FOOTER *****/
-#footer { 
+#footer {
 	max-width: 2000px;
 	width: 100%;
 	height: 100px;
@@ -307,7 +307,7 @@ a:hover {
 }
 
 #copyright {
-	display: block;	
+	display: block;
 }
 
 #footerNavLinks {
@@ -323,7 +323,7 @@ a:hover {
 
 #emailAddress {
 	color: #9A9995;
-	display: none;	
+	display: none;
 }
 
 #beefDiv {
@@ -339,14 +339,14 @@ a:hover {
 		max-width: 500px;
 		background-image: url("../images/mobile_background_1.png");
 		background-position: center top;
-	} 
+	}
 
-	/********** NAV SCREEN **********/ 
-		
+	/********** NAV SCREEN **********/
+
 	#navScreenDiv {
 		max-width: 500px;
 	}
-		
+
 	.displayScreen {
 		max-width: 500px;
 	}
@@ -358,56 +358,54 @@ a:hover {
 
 	.navScreenLink {
 		max-width: 500px;
-		font-size: 3em;
 		margin-top: 10px;
 	}
 
 	/***** HEADER *****/
-		
+
 	#header {
 		max-width: 500px;
 		width: 100%;
 		height: 40em;
 	}
-		
+
 	#menu {
 		max-width: 500px;
-		font-size: 3em;
 	}
-		
+
 	#social {
 		max-width: 500px;
 		font-size: 2em;
 	}
-		
+
 	#mainLogo {
 		max-width: 500px;
 	}
-		
+
 	#logo {
 		max-width: 500px;
 		width: 100%;
 		margin-top: 25%;
 	}
-		
+
 	/***** CONTENT *****/
 	#content {
 		max-width: 500px;
 		width: 100%;
 	}
-			
+
 	/***** MUSIC *****/
 	#music {
 		max-width: 500px;
-		width: 100%;	
+		width: 100%;
 	}
-		
+
 	#albumDiv {
 		width: 100%;
 		position: relative;
 		margin: 0px auto;
 	}
-		
+
 	#albumCover {
 		max-width: 500px;
 		width: 100%;
@@ -415,7 +413,7 @@ a:hover {
 		margin: 10px auto;
 		height: auto;
 	}
-		
+
 	/***** VIDEO *****/
 	#video {
 		max-width: 500px;
@@ -426,13 +424,13 @@ a:hover {
 	}
 
 	/***** SHOWS *****/
-	
+
 	#showDates {
 		max-width: 500px;
 	}
-		
+
 	/***** FOOTER *****/
-	#footer { 
+	#footer {
 		max-width: 500px;
 	}
 }
@@ -441,20 +439,20 @@ a:hover {
 /********** MED SCREEN PORTRAIT **********/
 @media only screen and (min-width: 500px) and (max-width: 999px) and (orientation : portrait) {
 	#wrapper {
-		max-width: 999px;	
+		max-width: 999px;
 		width: 100%;
 		background-image: url("../images/tablet_background_1.png");
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center 5%;
 	}
-	
+
 	#navScreenDiv {
 		max-width: 999px;
 		width: 100%;
 		background-color: #000;
 	}
-	
+
 	#linkList {
 		positon: fixed;
 		width: 100%;
@@ -466,45 +464,42 @@ a:hover {
 	.navScreenLink {
 		positon: fixed;
 		display: block;
-		font-size: 7em;
 		margin-top: 40px;
 		text-align: center;
 		width: 100%;
 		margin-top: 50px;
 	}
-	
+
 	/***** HEADER *****/
-	
+
 	#header {
 		max-width: 999px;
 		width: 100%;
 		height: 35em;
 	}
-	
+
 	#menu {
-		font-size: 8em;
 	}
 
 	#menuLink {
 		text-decoration: none;
 	}
-	
+
 	#social {
-		font-size: 5em;
 	}
-	
+
 	#mainLogo {
 		width: 600px;
 		height: auto;
 		margin: 10% auto;
 	}
-	
+
 	#logo {
 		max-width: 999px;
 		width: 100%;
 		margin-top: 100px;
 	}
-	
+
 	/***** CONTENT *****/
 	#content {
 		max-width: 999px;
@@ -512,28 +507,28 @@ a:hover {
 		background-color: rgba(44, 44, 44, .85);
 		border-top: 2px solid #000;
 	}
-	
+
 	.borderDiv {
 		width: 50%;
 		margin: 15px auto;
 		border-top: 1px solid #666;
 		clear: both;
 	}
-	
+
 	/***** MUSIC *****/
 	#music {
 		max-width: 999px;
-		width: 100%;	
+		width: 100%;
 		height: auto;
 		border-top: 2px solid #000;
 		clear: both;
 	}
-	
+
 	#albumDiv {
 		max-width: 600px;
 		margin: 20px auto;
 	}
-	
+
 	#albumCover {
 		position: relative;
 		max-width: 600px;
@@ -541,36 +536,34 @@ a:hover {
 		height: auto;
 		margin: 0px auto;
 	}
-	
+
 	.albumTitle {
 		margin-top: 0;
 		margin-bottom: 25px;
 		display: block;
 		color: #885A34;
 		position: relative;
-		font-size: 4em;
 		font-weight: 100;
 		text-align: center;
 	}
-	
+
 	.boxLink {
 		color: #9A9995;
 		position: relative;
 		margin: 0 auto;
 		margin-bottom: 25px;
-		width: 500px;
+		/* width: 500px; */
 		display: block;
 		border: 2px solid #4A2C19;
-		font-size: 4em;
 		font-weight: 100;
 		background-color: #111;
 		text-align: center;
 	}
-	
+
 	.trackList {
 		display: none;
 	}
-	
+
 	/***** VIDEO *****/
 	#video {
 		max-width: 999px;
@@ -587,7 +580,7 @@ a:hover {
 		max-width: 800px;
 		margin: 0px auto;
 	}
-	
+
 	#videoContainer iframe,
 	#videoContainer object,
 	#videoContainer embed {
@@ -598,36 +591,33 @@ a:hover {
 		width: 100%;
 		height: 100%;
 	}
-	
+
 	/***** SHOWS *****/
-	
+
 	#shows{
 		margin: 10px auto;
 		text-align: center;
 		color: #9A9995;
 		margin-bottom: 0px;
 	}
-	
+
 	#showsTitle {
 		margin-top: 10px;
 		font-weight: 100;
-		font-size: 4em;
 		font-weight: 100
 	}
-	
+
 	#showDates {
 		margin: 0px auto;
 		max-width: 800px;
 		width: 100%;
-		font-size: 5em;
 	}
-	
+
 	#dates {
-		font-size: 5em;
 	}
-	
+
 	/***** FOOTER *****/
-	#footer { 
+	#footer {
 		max-width: 999px;
 		width: 100%;
 		height: 75px;
@@ -639,7 +629,7 @@ a:hover {
 
 	#copyright {
 		display: block;
-		
+
 	}
 
 	#footerNavLinks {
@@ -650,7 +640,7 @@ a:hover {
 	}
 
 	#email {
-		
+
 	}
 
 	#emailAddress {
@@ -660,7 +650,7 @@ a:hover {
 	#beefDiv {
 		opacity: 0;
 	}
-	
+
 }
 
 
@@ -669,13 +659,13 @@ a:hover {
 	#navScreenDiv {
 		background-color: #000;
 	}
-	
+
 	#menu {
 		font-size: 3em;
 	}
 }
-	
-	
+
+
 /********** FULL SIZE **********/
 @media only screen and (min-width: 1000px){
 	#wrapper {
@@ -686,12 +676,12 @@ a:hover {
 		background-attachment: fixed;
 		background-position: center;
 	}
-	
+
 	#navScreenDiv {
 		max-width: 1995px;
 		width: 100%
 	}
-	
+
 	#linkList {
 		positon: fixed;
 		width: 100%;
@@ -707,17 +697,17 @@ a:hover {
 		text-align: center;
 		width: 100%;
 		margin-top: 10px;
-		
+
 	}
-	
+
 	/***** HEADER *****/
-	
+
 	#header {
 		max-width: 1995px;
 		width: 100%;
 		height: 60em;
 	}
-	
+
 	#menu {
 		width: 200px;
 		position: fixed;
@@ -733,12 +723,12 @@ a:hover {
 	#menuLink {
 		text-decoration: none;
 	}
-	
+
 	#menuLink:hover {
 		color: #ddd;
 		font-size: 1.2em;
 	}
-	
+
 	#social {
 		position: fixed;
 		height: 35px;
@@ -752,36 +742,36 @@ a:hover {
 		float: right;
 		background-color: rgba(0,0,0,0);
 	}
-	
+
 	#social ul {
 		padding-left:0px;
 		margin-top: 5px;
 		margin-bottom: 0px;
 	}
-	
+
 	.socialButton, a {
 		text-decoration: none;
 	}
-	
+
 	#social, li{
 		display: inline;
 		padding-left: 5px;
 		padding-right: 5px;
 	}
-	
+
 	#mainLogo {
 		max-width: 800px;
 		width: 100%;
 		height: auto;
 		margin: 0 auto;
 	}
-	
+
 	#logo {
 		max-width: 1995px;
 		width: 100%;
 		margin-top: 100px;
 	}
-	
+
 	.displayScreen {
 		position: fixed;
 		max-width: 1995px;
@@ -802,7 +792,7 @@ a:hover {
 		width: 100%;
 		padding-left: 0;
 		vertical-align: middle;
-		margin-top: 300px; 
+		margin-top: 300px;
 	}
 
 	.navScreenLink {
@@ -813,9 +803,9 @@ a:hover {
 		max-width: 1995px;
 		width: 100%;
 		margin-top: 20px;
-		
+
 	}
-	
+
 	/***** CONTENT *****/
 	#content {
 		max-width: 1995px;
@@ -823,29 +813,29 @@ a:hover {
 		background-color: rgba(44, 44, 44, .85);
 		border-top: 2px solid #000;
 	}
-	
+
 	.borderDiv {
 		width: 50%;
 		margin: 15px auto;
 		border-top: 1px solid #666;
 		clear: both;
 	}
-	
+
 	/***** MUSIC *****/
 	#music {
 		max-width: 1995px;
-		width: 100%;	
+		width: 100%;
 		height: auto;
 		border-top: 2px solid #000;
 		clear: both;
 	}
-	
+
 	#albumDiv {
 		max-width: 800px;
 		margin: 20px auto;
-		
+
 	}
-	
+
 	#albumCover {
 		position: relative;
 		max-width: 800px;
@@ -853,7 +843,7 @@ a:hover {
 		height: auto;
 		margin: 0px auto;
 	}
-	
+
 	.albumTitle {
 		margin-top: 35px;
 		margin-bottom: 35px;
@@ -864,7 +854,7 @@ a:hover {
 		font-weight: 100;
 		text-align: center;
 	}
-	
+
 	.boxLink {
 		color: #9A9995;
 		position: relative;
@@ -879,11 +869,11 @@ a:hover {
 		text-align: center;
 		padding: 10px;
 	}
-	
+
 	.trackList {
 		display: none;
 	}
-	
+
 	/***** VIDEO *****/
 	#video {
 		max-width: 1995px;
@@ -900,7 +890,7 @@ a:hover {
 		margin: 0px auto;
 		margin-bottom: 35px;
 	}
-	
+
 	#videoContainer iframe,
 	#videoContainer object,
 	#videoContainer embed {
@@ -910,9 +900,9 @@ a:hover {
 		width: 100%;
 		height: 100%;
 	}
-	
+
 	/***** SHOWS *****/
-	
+
 	#shows{
 		margin: 35px auto;
 		text-align: center;
@@ -920,22 +910,22 @@ a:hover {
 		margin-bottom: 0px;
 		padding-bottom: 50px;
 	}
-	
+
 	#showsTitle {
 		margin-top: 10px;
 		font-weight: 100;
 		font-size: 2em;
 		font-weight: 100
 	}
-	
+
 	#showDates {
 		margin: 0px auto;
 		max-width: 800px;
 		width: 100%;
 	}
-	
+
 	/***** FOOTER *****/
-	#footer { 
+	#footer {
 		max-width: 1995px;
 		width: 100%;
 		height: auto;
@@ -951,7 +941,7 @@ a:hover {
 		display: block;
 		float: left;
 		left: 15px;
-		
+
 	}
 
 	#footerNavLinks {
@@ -971,8 +961,8 @@ a:hover {
 	#emailAddress {
 		color: #9A9995;
 		float: right;
-		
+
 	}
 
-	
+
 }
